@@ -31,11 +31,11 @@ Basic usage:
 ```
 
 ## Examples
-In the [examples/](examples/) directory you can find some example patterns that you can use as a starting point.
+In the [demo/](demo/) directory you can find some example patterns that you can use as a starting point.
 
 ## Output
 
-Generated audio files are saved in the [stimfiles/](stimfiles/) directory by default. This directory is included in `.gitignore` to prevent accidental commits of generated files.
+Generated audio files are saved in the `stimfiles/` directory by default. This directory is included in `.gitignore` to prevent accidental commits of generated files.
 
 ## Contributing
 
