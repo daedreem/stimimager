@@ -1,6 +1,7 @@
 # StimImager
 
-StimImager is a Python-based audio composition tool that generates dynamic audio patterns using various sound effects and waveforms. It's designed to create complex audio stimulations with customizable parameters.
+StimImager is a Python-based audio generation tool for creating "stimphonies".
+Inspired by fallen_angel's stimphony creation web app due to unfortunately not being available reliably at the moment.
 
 ## Features
 
@@ -30,22 +31,13 @@ Basic usage:
 ```
 
 ## Examples
-In the `examples/` directory you can find some example patterns that you can use as a starting point.
+In the [examples/](examples/) directory you can find some example patterns that you can use as a starting point.
 
 ## Output
 
-Generated audio files are saved in the `stimfiles/` directory by default. This directory is included in `.gitignore` to prevent accidental commits of generated files.
-
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+Generated audio files are saved in the [stimfiles/](stimfiles/) directory by default. This directory is included in `.gitignore` to prevent accidental commits of generated files.
 
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
-
-## Acknowledgements
-
-- Built with NumPy for numerical operations
-- Audio processing with SoundFile and PyDub
-- FFmpeg for MP3 encoding
+Please read [CONTRIBUTING](CONTRIBUTING.md) before.
